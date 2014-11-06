@@ -4,8 +4,8 @@
 @include('layouts.sidebar')
   <aside class="right-side">
   <section class="content" style="overflow: visible;
-padding-left: 50px;
-padding-top: 90px;">
+padding-left: 15px;
+padding-top: 70px;">
 @yield('content')
   </section>
   </aside>

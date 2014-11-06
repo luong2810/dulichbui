@@ -7,12 +7,13 @@ class DesignController extends BaseController {
         return View::make('design.index');
     }
 
-    public function postProfile()
+    public function getGroup()
     {
         //
+        return View::make('design.group');
     }
 
-    public function anyLogin()
+    public function getDichvu()
     {
         //
     }
