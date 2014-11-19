@@ -6,3 +6,5 @@
 <script src="{{ url('js/d3.min.js') }}"></script>
 <script src="{{ url('js/c3.min.js') }}"></script>
 <script src="{{ url('js/jquery-validate/jquery.validate.js') }}"></script>
+
+<script src="{{ url('js/global.js') }}"></script>

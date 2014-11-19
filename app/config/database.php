@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'dandismo_suppliers',
+			'database'  => 'dulichbui',
 			'username'  => 'root',
 			'password'  => '',
 			'charset'   => 'utf8',

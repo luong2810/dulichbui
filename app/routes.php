@@ -12,7 +12,5 @@
 */
 //Design
     Route::controller('design', 'DesignController');
-    Route::get('/',function(){
-        return View::make('test');
-    });    
+    Route::get('/','ListController@index');    
 // end design
