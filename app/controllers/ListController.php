@@ -12,5 +12,27 @@ class ListController extends BaseController {
                                         'service_news'=>$service_news                    
                                         ));
     }
+    public function groupNews()
+    {
+        $group_news = Groups::listNew(36);
+        return View::make('list.group-news',array(
+                                        'group_news'=>$group_news                    
+                                        ));
+    }
 
+    public function serviceNews()
+    {
+        $service_news = Services::listNew(36);
+        return View::make('list.service-news',array(
+                                        'service_news'=>$service_news                    
+                                        ));
+    }
+
+    public function postNews()
+    {
+        $user_post_news = Postss::listUserNew(36);
+        return View::make('list.post-news',array(
+                                        'user_post_news'=>$user_post_news                    
+                                        ));
+    }
 }
