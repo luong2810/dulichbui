@@ -31,9 +31,11 @@ AWS SDK for PHP
     service-cloudsearchdomain
     service-cloudtrail
     service-cloudwatch
+    service-cloudwatchlogs
+    service-codedeploy
     service-cognitoidentity
     service-cognitosync
-    service-cloudwatchlogs
+    service-configservice
     service-datapipeline
     service-directconnect
     service-dynamodb
@@ -48,6 +50,8 @@ AWS SDK for PHP
     service-iam
     service-importexport
     service-kinesis
+    service-kms
+    service-lambda
     service-opsworks
     service-rds
     service-redshift
@@ -132,6 +136,10 @@ Service-Specific Guides
 
   .. indexlinks:: CloudWatch
 
+* Amazon CloudWatch Logs
+
+  .. indexlinks:: CloudWatchLogs
+
 * Amazon Cognito Identity
 
   .. indexlinks:: CognitoIdentity
@@ -140,9 +148,9 @@ Service-Specific Guides
 
   .. indexlinks:: CognitoSync
 
-* Amazon CloudWatch Logs
+* AWS Config
 
-  .. indexlinks:: CloudWatchLogs
+  .. indexlinks:: ConfigService
 
 * Amazon DynamoDB
 
@@ -174,6 +182,10 @@ Service-Specific Guides
 * Amazon Kinesis
 
   .. indexlinks:: Kinesis
+
+* AWS Key Management Service
+
+  .. indexlinks:: Kms
 
 * Amazon Redshift
 
@@ -229,6 +241,10 @@ Service-Specific Guides
 
   .. indexlinks:: CloudTrail
 
+* AWS CodeDeploy
+
+  .. indexlinks:: CodeDeploy
+
 * AWS Data Pipeline
 
   .. indexlinks:: DataPipeline
@@ -248,6 +264,10 @@ Service-Specific Guides
 * AWS Import/Export
 
   .. indexlinks:: ImportExport
+
+* AWS Lambda
+
+  .. indexlinks:: Lambda
 
 * AWS OpsWorks
 
